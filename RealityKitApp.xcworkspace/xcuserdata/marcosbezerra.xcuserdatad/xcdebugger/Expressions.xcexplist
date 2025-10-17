@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "closure #1 in ArmIKSystem.update(context:):MoveFingerComponent.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "ikComp.solvers[0].constraints[&quot;index.distal&quot;]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>
