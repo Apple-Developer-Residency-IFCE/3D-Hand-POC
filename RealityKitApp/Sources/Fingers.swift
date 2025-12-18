@@ -6,8 +6,7 @@
 //
 import Foundation
 
-enum Fingers: String {
-    
+public enum Fingers: String, CaseIterable {
     case pinky
     case ring
     case middle
@@ -23,9 +22,25 @@ enum Fingers: String {
             fatalError("Thumb Finger has no middle joint.")
         }
 
-        return joint == .root
-        ? joint.rawValue
-        : joint.rawValue.replacing("finger", with: self.rawValue)
+        let jointName =
+            joint == .root
+                ? joint.rawValue
+                : joint.rawValue.replacing("finger", with: self.rawValue)
+        
+        return self == .thumb ? jointName.replacing("thumb_middle/", with: "") : jointName
+    }
+    
+    func jointPathList() -> [String] {
+        var joints: [Fingers.Joints] = [
+            .proximal,
+            .distal
+        ]
+        
+        if self != .thumb {
+            joints.append(.middle)
+        }
+        
+        return joints.map { jointName($0) }
     }
     
     enum Joints: String {

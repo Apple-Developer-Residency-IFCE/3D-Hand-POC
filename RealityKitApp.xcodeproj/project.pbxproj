@@ -3,20 +3,21 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 55;
+	objectVersion = 56;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		0C3EF5BDB15B05CEE46323D4 /* TuistBundle+RealityKitApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B0FB2E0FDC3CA9DBC5620C0 /* TuistBundle+RealityKitApp.swift */; };
 		1D901CCCF38EDA90B2376E45 /* Skeleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 429C43F0C1005C87E6ECCDAB /* Skeleton.swift */; };
 		2B8DCB120BC158EF0F063814 /* TuistAssets+RealityKitApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F2F803E70344DF4235A0E48 /* TuistAssets+RealityKitApp.swift */; };
-		2E7334192A38925BB76BFB09 /* RealityKitAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FC90C971AC617D7DF0F72B3 /* RealityKitAppApp.swift */; };
+		2E7334192A38925BB76BFB09 /* RealityKitApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FC90C971AC617D7DF0F72B3 /* RealityKitApp.swift */; };
 		303D2ECA5E2800BBFD6C0C1B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF1839FEB6B8A51124376481 /* ContentView.swift */; };
+		3F60F0692EE8DF1D00356FEA /* HandSceneFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F60F0682EE8DF1900356FEA /* HandSceneFactory.swift */; };
 		4053C1D9BD31574DEF70592F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C8B96E219815CD29891FED7C /* Assets.xcassets */; };
-		76F76A167A49AA4801021F2E /* ContentOld.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4490771E029F1FF9CE21CEB /* ContentOld.swift */; };
 		93D8DCE3D258CFA670044ED9 /* Hand-v1.0.usdc in Resources */ = {isa = PBXBuildFile; fileRef = D363272F43CF052F4679695A /* Hand-v1.0.usdc */; };
 		9BA1A73AE909427630341F5B /* Fingers.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0FDFC83EF22B77368DB7758 /* Fingers.swift */; };
 		C84487B7F852A5919B904D57 /* MoveFingerComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 974A49E9E5B815AE6676727B /* MoveFingerComponent.swift */; };
+		EBAD274D6C62CA047FC4BE93 /* SkeletalComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13C887F0A6306E8814DF5C8B /* SkeletalComponent.swift */; };
 		F94C43744656FAC3A3C96689 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F09EA7AFD8693315C04CF743 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
@@ -34,17 +35,18 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		13C887F0A6306E8814DF5C8B /* SkeletalComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkeletalComponent.swift; sourceTree = "<group>"; };
+		3F60F0682EE8DF1900356FEA /* HandSceneFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandSceneFactory.swift; sourceTree = "<group>"; };
 		429C43F0C1005C87E6ECCDAB /* Skeleton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Skeleton.swift; sourceTree = "<group>"; };
 		4B0FB2E0FDC3CA9DBC5620C0 /* TuistBundle+RealityKitApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TuistBundle+RealityKitApp.swift"; sourceTree = "<group>"; };
-		4FC90C971AC617D7DF0F72B3 /* RealityKitAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealityKitAppApp.swift; sourceTree = "<group>"; };
+		4FC90C971AC617D7DF0F72B3 /* RealityKitApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealityKitApp.swift; sourceTree = "<group>"; };
 		6B282766D9BC471BE4F0F18C /* RealityKitApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "RealityKitApp-Info.plist"; sourceTree = "<group>"; };
 		6F2F803E70344DF4235A0E48 /* TuistAssets+RealityKitApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TuistAssets+RealityKitApp.swift"; sourceTree = "<group>"; };
 		7DB58870CA1DF96E730D49CC /* RealityKitApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RealityKitApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		974A49E9E5B815AE6676727B /* MoveFingerComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoveFingerComponent.swift; sourceTree = "<group>"; };
 		AF1839FEB6B8A51124376481 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		C4490771E029F1FF9CE21CEB /* ContentOld.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentOld.swift; sourceTree = "<group>"; };
 		C8B96E219815CD29891FED7C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		D363272F43CF052F4679695A /* Hand-v1.0.usdc */ = {isa = PBXFileReference; path = "Hand-v1.0.usdc"; sourceTree = "<group>"; };
+		D363272F43CF052F4679695A /* Hand-v1.0.usdc */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Hand-v1.0.usdc"; sourceTree = "<group>"; };
 		E0FDFC83EF22B77368DB7758 /* Fingers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fingers.swift; sourceTree = "<group>"; };
 		F09EA7AFD8693315C04CF743 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -158,11 +160,12 @@
 			isa = PBXGroup;
 			children = (
 				C74DC89A5C1FCF77B284E9D3 /* Features */,
-				C4490771E029F1FF9CE21CEB /* ContentOld.swift */,
 				AF1839FEB6B8A51124376481 /* ContentView.swift */,
 				E0FDFC83EF22B77368DB7758 /* Fingers.swift */,
 				974A49E9E5B815AE6676727B /* MoveFingerComponent.swift */,
-				4FC90C971AC617D7DF0F72B3 /* RealityKitAppApp.swift */,
+				4FC90C971AC617D7DF0F72B3 /* RealityKitApp.swift */,
+				3F60F0682EE8DF1900356FEA /* HandSceneFactory.swift */,
+				13C887F0A6306E8814DF5C8B /* SkeletalComponent.swift */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -197,8 +200,6 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = YES;
-				TargetAttributes = {
-				};
 			};
 			buildConfigurationList = 58B45D384314F63FCFB811E0 /* Build configuration list for PBXProject "RealityKitApp" */;
 			compatibilityVersion = "Xcode 14.0";
@@ -238,12 +239,13 @@
 			files = (
 				2B8DCB120BC158EF0F063814 /* TuistAssets+RealityKitApp.swift in Sources */,
 				0C3EF5BDB15B05CEE46323D4 /* TuistBundle+RealityKitApp.swift in Sources */,
-				76F76A167A49AA4801021F2E /* ContentOld.swift in Sources */,
+				3F60F0692EE8DF1D00356FEA /* HandSceneFactory.swift in Sources */,
 				303D2ECA5E2800BBFD6C0C1B /* ContentView.swift in Sources */,
 				1D901CCCF38EDA90B2376E45 /* Skeleton.swift in Sources */,
 				9BA1A73AE909427630341F5B /* Fingers.swift in Sources */,
 				C84487B7F852A5919B904D57 /* MoveFingerComponent.swift in Sources */,
-				2E7334192A38925BB76BFB09 /* RealityKitAppApp.swift in Sources */,
+				2E7334192A38925BB76BFB09 /* RealityKitApp.swift in Sources */,
+				EBAD274D6C62CA047FC4BE93 /* SkeletalComponent.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -317,7 +319,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "Derived/InfoPlists/RealityKitApp-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -328,10 +330,7 @@
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
-					"$(inherited)",
-					DEBUG,
-				);
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG";
 				SWIFT_COMPILATION_MODE = singlefile;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -347,7 +346,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "Derived/InfoPlists/RealityKitApp-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
